@@ -1,4 +1,3 @@
-// Creamos un array de productos
 const productos = [
     { nombre: "Telefono", precio: 10 },
     { nombre: "Vaso", precio: 20 },
@@ -12,10 +11,10 @@ const productos = [
     { nombre: "Ventana", precio: 100 }
 ];
 
-// Obtener el cuerpo de la tabla
+
 const tablaProductos = document.getElementById("tabla-productos");
 
-// Función para agregar productos a la tabla
+
 function agregarProductosATabla() {
     productos.forEach(producto => {
         const fila = document.createElement("tr");
@@ -32,5 +31,5 @@ function agregarProductosATabla() {
     });
 }
 
-// Llamar a la función para agregar los productos a la tabla
+
 agregarProductosATabla();
